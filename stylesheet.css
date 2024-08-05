@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+	background-image: url(images/c.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: "Trebuchet MS";
+	font-size: x-large;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	color: white;
+}
+
+input {
+	color: white;
+}
+
+.head {
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	/* Centers the container horizontally */
+	align-items: center;
+	margin: 0;
+	/* Remove default margin */
+	padding: 40px;
+	/* Padding around the heading */
+	border-radius: 5px;
+	/* Optional: Rounded corners for the heading background */
+}
+
+.sub {
+	display: flex;
+	justify-content: center;
+	/* Centers the container horizontally */
+	align-items: center;
+	font-size: 20px;
+	/* Smaller font size for the subheading */
+	margin: 0;
+	/* Remove default margin */
+}
+
+.banner {
+	text-align: center;
+	/* width:99.5%; */
+	height: 100px;
+	/* border:2px solid #FFF; */
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.clg {
+	font-family: "Segoe UI";
+	/* font-size:16px; */
+	/* color:#FF0; */
+}
+
+#wrapper {
+	margin-top: 180px;
+	width: 80%;
+	min-width: 300px;
+	max-width: 1200px;
+	font-family: "Trebuchet MS";
+	/* font-size: 14px; */
+	border-radius: 5px;
+	padding: 4px 6px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	/* Slight white border */
+	background-color: rgba(255, 255, 255, 0.1);
+	/* Semi-transparent white background */
+	backdrop-filter: blur(30px);
+	/* Adds the glass effect */
+	box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+	/* Slight white shadow */
+}
+
+.SubHead {
+	font-family: "Segoe UI";
+	/* font-size:20px; */
+}
+
+/* .labels {
+	font-family: "Trebuchet MS";
+	font-size:16px;
+} */
+
+/* .fields {
+	font-family: "Trebuchet MS";
+	border-radius: 5px;
+	padding: 4px 6px;
+	background-color: transparent;
+} */
+
+
+button {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 20px;
+	margin: 10px;
+    border: 1px solid #666; /* Dark border color */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    background-color: #444; /* Slightly lighter background on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* More prominent shadow on hover */
+}
+
+.table {
+	border-radius: 5px;
+	padding: 0px 5px;
+	/* border: 1px solid #FF3; */
+	background-color: transparent;
+}
+
+a.link:link {
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.link:active {
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.link:visited {
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.link:hover {
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #F6F;
+	text-decoration: none;
+}
+
+.msg {
+	font-family: "Segoe UI";
+	color: #6F6;
+	font-size: 13px;
+}
+
+a.Command:link {
+	text-decoration: none;
+	font-family: "Segoe UI";
+	color: #CFC;
+	font-size: 16px;
+	padding: 5px 7px;
+	border: 2px solid #FF0;
+	border-radius: 5px;
+}
+
+a.Command:active {
+	text-decoration: none;
+	font-family: "Segoe UI";
+	color: #CFC;
+	font-size: 16px;
+	padding: 5px 7px;
+	/* border: 2px solid #FF0; */
+	border-radius: 5px;
+}
+
+a.Command:visited {
+	text-decoration: none;
+	font-family: "Segoe UI";
+	color: #CFC;
+	font-size: 16px;
+	padding: 5px 7px;
+	/* border: 2px solid #FF0; */
+	border-radius: 5px;
+}
+
+a.Command:hover {
+	text-decoration: none;
+	font-family: "Segoe UI";
+	color: #CFC;
+	font-size: 16px;
+	padding: 5px 7px;
+	border: 2px solid #F60;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #FFFFFF;
+}
