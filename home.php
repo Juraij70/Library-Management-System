@@ -35,11 +35,9 @@ $name=$b['name'];
             <span class="SubHead">Welcome <?php echo $name;?></span>
             <br />
 
-
             <div class="link-container">
                 <div class="link-item">
-				<img src="images/c.jpg" alt="Icon 1" width="40" height="40">
-
+		<img src="images/c.jpg" alt="Icon 1" width="40" height="40">
                     <a href="#" class="link">Link 1</a>
                 </div>
                 <div class="link-item">
@@ -56,12 +54,10 @@ $name=$b['name'];
                 </div>
             </div>
 
-
             <a href="issueBook.php" class="Command">Issue Book</a>
             <a href="request.php" class="Command">Request New Books</a>
             <a href="changePassword.php" class="Command">Change Password</a>
             <a href="logout.php" class="Command">Logout</a>
-
 
         </div>
     </div>
