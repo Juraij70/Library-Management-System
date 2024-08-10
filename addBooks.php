@@ -34,8 +34,8 @@ if($bn!=NULL && $au!=NULL)
 
 <body>
 <div id="banner">
-<span class="head">Library Management System</span><br />
-<marquee class="clg" direction="right" behavior="alternate" scrollamount="1">TECH VEGAN</marquee>
+<p class="head">Library Management System</p>
+		<p class="sub">Al Ain University of Science and Technology</p>
 </div>
 <br />
 
